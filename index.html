@@ -63,12 +63,12 @@
         </div>
     </nav>
 
-    <div class="main flex">
 
-        <!-- LEFT-->
-        <div class="flex-shrink-0 p-3" style="width: 280px;">
-            <a href="/"
-                class="d-flex align-items-center pb-3 mb-3 link-body-emphasis text-decoration-none border-bottom">
+    
+    <!-- LEFT-->
+    <div class="flex-shrink-0 p-3 pull-left" style="width: 280px;">
+        <a href="/"
+        class="d-flex align-items-center pb-3 mb-3 link-body-emphasis text-decoration-none border-bottom">
                 <svg class="bi pe-none me-2" width="30" height="24">
                     <use xlink:href="#bootstrap"></use>
                 </svg>
@@ -162,9 +162,9 @@
                 </li>
             </ul>
         </div>
-
-
+        
         <!-- CENTER-->
+        <div class="container">
         <div>
             <article>
                 <section>
@@ -173,10 +173,26 @@
                         perferendis perspiciatis, autem at odio quam hic harum dolorem nihil ratione beatae doloremque
                         et. Ex, provident adipisci?</p>
                 </section>
+                <section>
+                    <h1>Title</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum quidem culpa, aut non
+                        perferendis perspiciatis, autem at odio quam hic harum dolorem nihil ratione beatae doloremque
+                        et. Ex, provident adipisci?</p>
+                </section>
+                <section>
+                    <h1>Title</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum quidem culpa, aut non
+                        perferendis perspiciatis, autem at odio quam hic harum dolorem nihil ratione beatae doloremque
+                        et. Ex, provident adipisci?</p>
+                </section>
             </article>
         </div>
+    </div>
         <!-- RIGHT-->
-        <div class="d-flex flex-column align-items-stretch flex-shrink-0 bg-body-tertiary" style="width: 380px;">
+        <div class="float-left">Float left on all viewport sizes</div><br>
+<div class="float-right">Float right on all viewport sizes</div><br>
+<div class="float-none">Don't float on all viewport sizes</div>
+        <div class="float-right d-flex flex-column align-items-stretch flex-shrink-0 bg-body-tertiary" style="width: 380px;">
             <a href="/"
                 class="d-flex align-items-center flex-shrink-0 p-3 link-body-emphasis text-decoration-none border-bottom">
                 <svg class="bi pe-none me-2" width="30" height="24">
@@ -296,7 +312,7 @@
             </ul>
             <p class="text-center text-body-secondary">© 2023 Company, Inc</p>
         </footer>
-    </div>
+    
 </body>
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
     integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
