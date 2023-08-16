@@ -16,5 +16,7 @@ const observer = new IntersectionObserver((entries) => {
     }
   });
 });
-observer.observe(element);
+window.addEventListener('scroll', function() {
+    observer.observe(element);
+});
 ```
