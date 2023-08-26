@@ -60,10 +60,7 @@ if (document.readyState === "loading")
 {
   try
   {
-    const repos =  (async () => {
-      return await getAllRepos(username);
-    })();
-    console.log(repos);
+    console.log("Loading...");
   }
   catch (error)
   {
@@ -73,7 +70,7 @@ if (document.readyState === "loading")
 else if (document.readyState === "interactive") { }
 else if (document.readyState === "complete")
 {
-  run();
-  jsonToUnorderedList(repos)
+
+  
 }
 else { }
