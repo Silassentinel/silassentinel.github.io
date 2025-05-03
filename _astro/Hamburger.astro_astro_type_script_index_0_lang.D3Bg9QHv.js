@@ -1,0 +1,1 @@
+import{i as e}from"./BaseLayout.astro_astro_type_script_index_2_lang.CW4V_U9r.js";typeof window<"u"&&document.addEventListener("DOMContentLoaded",e);
