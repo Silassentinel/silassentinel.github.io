@@ -1,0 +1,1 @@
+const t=()=>{const e=document.querySelector(".hamburger");e&&e.addEventListener("click",o);const n=document.querySelector(".goBack");n&&n.addEventListener("click",()=>window.history.back())},o=()=>{const e=document.querySelector(".nav-links");e&&e.classList.toggle("expanded")};typeof window<"u"&&document.addEventListener("DOMContentLoaded",t);
