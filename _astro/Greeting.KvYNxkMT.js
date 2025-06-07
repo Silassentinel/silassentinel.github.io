@@ -1,1 +1,0 @@
-import{d as e}from"./hooks.module.CdfbUnu1.js";import{u as n}from"./jsxRuntime.module.CgdKjfoI.js";import"./preact.module.B31BUu8B.js";function l({messages:o}){const[t,r]=e(o[0]);return n("div",{children:[n("h3",{children:[t,"! Thank you for visiting!"]}),n("button",{onClick:()=>r(o[Math.floor(Math.random()*o.length)]),children:"New Greeting"})]})}export{l as default};

@@ -1,1 +1,0 @@
-import{_ as _page}from"../../chunks/test-recipe_CoosTs_x.mjs";export{renderers}from"../../renderers.mjs";const page=()=>_page;export{page};
