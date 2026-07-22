@@ -1,0 +1,1 @@
+import{n as e}from"./hooks.module.ZbZ4l_zH.js";import{t}from"./jsxRuntime.module.BG9KJlGc.js";function n({messages:n}){let r=()=>n[Math.floor(Math.random()*n.length)],[i,a]=e(n[0]);return t(`div`,{children:[t(`h3`,{children:[i,`! Thank you for visiting!`]}),t(`button`,{onClick:()=>a(r()),children:`New Greeting`})]})}export{n as default};
